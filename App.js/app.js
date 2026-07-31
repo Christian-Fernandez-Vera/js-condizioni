@@ -3,29 +3,29 @@
  * Esercizio 2:
  * Il costo del biglietto è di 36 €. Chiedi il peso della valigia in kg. Se il peso supera i 23kg, c'è un supplemento di 20 €, infine stampa il prezzo del biglietto.
  * 3. Chiedi un numero all'utente. Stampa se è pari o dispari.
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
- * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 
 // console.log('JS ok!')
@@ -50,9 +50,12 @@
 
 // ==========================================
 
-const numUtente = Number(prompt("Esercizio 3: inserisci un numero"));
-if (numUtente % 2 === 0) {
-    console.log(`Il numero ${numUtente} e' pari`);
-} else {
-    console.log(`Il numero ${numUtente} e' dispari`);
-}
+// const numUtente = Number(prompt("Esercizio 3: inserisci un numero"));
+// if (numUtente % 2 === 0) {
+//     console.log(`Il numero ${numUtente} e' pari`);
+// } else {
+//     console.log(`Il numero ${numUtente} e' dispari`);
+// }
+
+
+// ==========================================
