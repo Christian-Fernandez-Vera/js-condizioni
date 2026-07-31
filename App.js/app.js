@@ -21,8 +21,11 @@ let costoBiglietto = 36;
 const pesoValigia = Number(prompt("Esercizio 2: inserisci il peso della valigia in kg"));
 const supplemento = 20
 if (pesoValigia > 23) {
-    console.log('Supplemento di 20 €');
+    costoBiglietto += 20;
 }
+console.log(`Il costo del biglietto è: ${costoBiglietto} €`);
+
+
 
 
 
