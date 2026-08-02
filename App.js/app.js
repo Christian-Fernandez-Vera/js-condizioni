@@ -69,8 +69,19 @@
 
 // ==========================================
 
+// const etaUtente = Number(prompt("Esercizio 5: inserisci la tua età"));
 
+// if (etaUtente < 18) {
+//     console.log("Ciao");
+// }
+// else if (etaUtente >60) {
+//     console.log("Salve");
+// }
+// else {
+//     console.log("Benvenuto")
+// }
 
+// ==========================================
 
 
 
