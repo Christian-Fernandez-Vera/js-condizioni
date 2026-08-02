@@ -6,7 +6,7 @@
  *4. Un parco divertimenti richiede un'altezza minima di 140cm e almeno 14 anni per le montagne russe. Chiedi questi dati all'utente e stampa se può accedere alle montagne russe.
  *5. Chiedi l'età all'utente. Se è minorenne stampa "Ciao", se è over60 stampa "Salve", altrimenti stampa "Benvenuto".
  *6. Chiedi se l'utente ha la tessera fedeltà. Se ha la tessera applica uno sconto del 10% al prezzo inserito, altrimenti lascia il prezzo intero. Stampa il prezzo.
- *
+ *7. Chiedi all'utente che giorno è oggi. Se è "sabato" o "domenica" stampa "Buon weekend!", altrimenti stampa "Buon lavoro".
  *
  *
  *
@@ -83,13 +83,27 @@
 
 // ==========================================
 
-const prezzoOriginale = Number(prompt("Esercizio 6: Inserisci il prezzo del prodotto (€) : "));
-const haTesseraFedelta = prompt("Hai la tessera fedeltà?").toLowerCase() === "si";
+// const prezzoOriginale = Number(prompt("Esercizio 6: Inserisci il prezzo del prodotto (€) : "));
+// const haTesseraFedelta = prompt("Hai la tessera fedeltà?").toLowerCase() === "si";
 
-if (haTesseraFedelta) {
-    const prezzoConLoSconto = prezzoOriginale * 0.9;
-    console.log(`Prezzo con lo sconto aplicato: ${prezzoConLoSconto.toFixed(2)} €`)
-} else {
-    console.log(`Prezzo regolare senza sconto: ${prezzoOriginale.toFixed(2)} €`);
-}
+// if (haTesseraFedelta) {
+//     const prezzoConLoSconto = prezzoOriginale * 0.9;
+//     console.log(`Prezzo con lo sconto aplicato: ${prezzoConLoSconto.toFixed(2)} €`)
+// } else {
+//     console.log(`Prezzo regolare senza sconto: ${prezzoOriginale.toFixed(2)} €`);
+// }
+
+// ==========================================
+
+// const giornoDellaSettimana = prompt("Esercizio 7: che giorno è oggi?").toLowerCase();   
+// if (giornoDellaSettimana === "sabato" || giornoDellaSettimana === "domenica") {
+//     console.log("Buon weekend!");
+// } else {
+//     console.log("Buon lavoro");
+// }
+
+// ==========================================
+
+
+
 
