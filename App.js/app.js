@@ -7,7 +7,7 @@
  *5. Chiedi l'età all'utente. Se è minorenne stampa "Ciao", se è over60 stampa "Salve", altrimenti stampa "Benvenuto".
  *6. Chiedi se l'utente ha la tessera fedeltà. Se ha la tessera applica uno sconto del 10% al prezzo inserito, altrimenti lascia il prezzo intero. Stampa il prezzo.
  *7. Chiedi all'utente che giorno è oggi. Se è "sabato" o "domenica" stampa "Buon weekend!", altrimenti stampa "Buon lavoro".
- *
+ *8. Chiedi username e password. Se sono rispettivamente "admin" e "1234", stampa "Login effettuato", altrimenti stampa "Credenziali errate".
  *
  *
  *
@@ -104,6 +104,13 @@
 
 // ==========================================
 
+const username = prompt("Esercizio 8: inserisci username");
+const password = prompt("Inserisci la password");
 
+if (username === "admin" && password === "1234") {
+    console.log("Login effettuato")
+} else {
+    console.log("Credenziali errate")
+}
 
 
