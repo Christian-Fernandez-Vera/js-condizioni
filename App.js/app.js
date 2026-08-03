@@ -9,7 +9,7 @@
  *7. Chiedi all'utente che giorno è oggi. Se è "sabato" o "domenica" stampa "Buon weekend!", altrimenti stampa "Buon lavoro".
  *8. Chiedi username e password. Se sono rispettivamente "admin" e "1234", stampa "Login effettuato", altrimenti stampa "Credenziali errate".
  *9. Chiedi un voto da 1 a 10. Stampa "Insufficiente" se < 6, "Sufficiente" se tra 6 e 7, "Buono" se tra 8 e 9, "Ottimo" se 10.
- *
+ *10. Chiedi quante ore si resta nel parcheggio. Se sono <= 2 ore costa 5€, se sono <= 5 ore costa 10€, altrimenti costa 15€.
  *
  *
  *
@@ -132,6 +132,8 @@
 // else {
 //     console.log("Il voto inserito non è valido.");
 // }
+
+// ==========================================
 
 
 
