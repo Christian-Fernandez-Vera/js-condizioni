@@ -11,7 +11,7 @@
  *9. Chiedi un voto da 1 a 10. Stampa "Insufficiente" se < 6, "Sufficiente" se tra 6 e 7, "Buono" se tra 8 e 9, "Ottimo" se 10.
  *10. Chiedi quante ore si resta nel parcheggio. Se sono <= 2 ore costa 5€, se sono <= 5 ore costa 10€, altrimenti costa 15€.
  *11. Chiedi l'età e il genere ("M" o "F"). Se è uomo e ha >= 67 anni o donna e ha >= 62 anni, stampa "Puoi andare in pensione", altrimenti "Devi ancora lavorare".
- *
+ *12. Simula il lancio di una moneta. Se il numero è minore di 0.5 stampa "Testa", altrimenti stampa "Croce".
  *
  *
  *
@@ -157,4 +157,24 @@
 // }
 
 // ==========================================
+
+// const lancioMoneta = Math.random()
+
+// if (lancioMoneta < 0.5) {
+//     console.log("Testa")
+// } else {
+//     console.log("Croce")
+// }
+
+// ==========================================
+
+
+
+
+
+
+
+
+
+
 
