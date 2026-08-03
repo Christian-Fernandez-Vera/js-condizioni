@@ -187,7 +187,20 @@
 
 // ==========================================
 
+const saldoIniziale = Number(prompt("Esercizio 15: Inserisci il saldo attuale del tuo conto: €"))
+const importoDaPrelevare = Number(prompt("Inserisci l'importo che vuoi prelevare: €"))
 
+if (importoDaPrelevare > 0) {
+    if (saldoIniziale >= importoDaPrelevare) {
+        const saldoFinale = saldoIniziale - importoDaPrelevare;
+        console.log(`Prelievo effettuato. Questo è il nuevo saldo: ${saldoFinale}€`);
+    } else {
+        console.log("Saldo insufficiente");
+    }
+} else {
+    console.log("L'importo da prelevare deve essere positivo");
+}
+    
 
 
 
