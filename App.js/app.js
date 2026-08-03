@@ -8,7 +8,7 @@
  *6. Chiedi se l'utente ha la tessera fedeltà. Se ha la tessera applica uno sconto del 10% al prezzo inserito, altrimenti lascia il prezzo intero. Stampa il prezzo.
  *7. Chiedi all'utente che giorno è oggi. Se è "sabato" o "domenica" stampa "Buon weekend!", altrimenti stampa "Buon lavoro".
  *8. Chiedi username e password. Se sono rispettivamente "admin" e "1234", stampa "Login effettuato", altrimenti stampa "Credenziali errate".
- *
+ *9. Chiedi un voto da 1 a 10. Stampa "Insufficiente" se < 6, "Sufficiente" se tra 6 e 7, "Buono" se tra 8 e 9, "Ottimo" se 10.
  *
  *
  *
@@ -104,13 +104,38 @@
 
 // ==========================================
 
-const username = prompt("Esercizio 8: inserisci username");
-const password = prompt("Inserisci la password");
+// const username = prompt("Esercizio 8: inserisci username");
+// const password = prompt("Inserisci la password");
 
-if (username === "admin" && password === "1234") {
-    console.log("Login effettuato")
-} else {
-    console.log("Credenziali errate")
-}
+// if (username === "admin" && password === "1234") {
+//     console.log("Login effettuato")
+// } else {
+//     console.log("Credenziali errate")
+// }
+
+// ==========================================
+
+// const votoUtente = Number(prompt("Esercizio 9: Inserisci il tuo voto da 1 al 10:"))
+
+// if (votoUtente < 6) {
+//     console.log(" Voto Insufficente");
+// }
+// else if (votoUtente >= 6 && votoUtente <=7) {
+//     console.log("Voto Sufficiente");
+// }
+// else if (votoUtente >= 8 && votoUtente <= 9) {
+//     console.log("Voto Buono");
+// }
+// else if (votoUtente === 10) {
+//     console.log("Voto Ottimo");
+// }
+// else {
+//     console.log("Il voto inserito non è valido.");
+// }
+
+
+
+
+
 
 
