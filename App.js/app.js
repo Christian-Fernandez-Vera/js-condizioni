@@ -135,6 +135,16 @@
 
 // ==========================================
 
+// const oreParcheggio = Number(prompt("Esercizio 10: Quante ore resti nel parcheggio?"))
+
+// if (oreParcheggio <= 2) {
+//     console.log("Il costo del parcheggio è 5€")
+// } else if (oreParcheggio <= 5) {
+//     console.log("Il costo del parcheggio è 10")
+// } else {
+//     console.log("Il costo del parcheggio è 15")   
+// }
+
 
 
 
