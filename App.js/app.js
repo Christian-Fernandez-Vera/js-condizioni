@@ -13,15 +13,8 @@
  *11. Chiedi l'età e il genere ("M" o "F"). Se è uomo e ha >= 67 anni o donna e ha >= 62 anni, stampa "Puoi andare in pensione", altrimenti "Devi ancora lavorare".
  *12. Simula il lancio di una moneta. Se il numero è minore di 0.5 stampa "Testa", altrimenti stampa "Croce".
  *13. Chiedi il totale del carrello e-commerce. Se la spesa è superiore a 50€, stampa "Spedizione gratuita", altrimenti calcola e stampa un costo di spedizione fisso di 5€.
- *
- *
- *
- *
- *
- *
- *
- *
- *
+ *14. Chiedi la temperatura esterna. Se fa freddo (< 15°C), chiedi se piove. Se piove stampa "Metti impermeabile", altrimenti "Metti giacca". Se non fa freddo (>= 15°C), stampa "Vai leggero".
+ *15. Chiedi il saldo attuale e l'importo da prelevare. Prima verifica se l'importo è positivo. Se lo è, verifica se il saldo è sufficiente. Se sì, stampa "Prelievo effettuato" e il nuovo saldo, altrimenti stampa "Saldo insufficiente".
  */
 
 // const { Component } = require("react");
@@ -168,16 +161,31 @@
 
 // ==========================================
 
-const carrelloSpesa = Number(prompt("Esercizio 13: Qual'è l'ammonto totale del tuo carrello della spesa?"))
+// const carrelloSpesa = Number(prompt("Esercizio 13: Qual'è l'ammonto totale del tuo carrello della spesa?"))
 
-if (carrelloSpesa >= 50) {
-    console.log("Spedizione Gratuita")
-} else {
-    const costoFinale = carrelloSpesa + 5
-    console.log(`Il costo di spedizione è di 5€. Totale a pagare: ${carrelloSpesa}`)
-}
+// if (carrelloSpesa >= 50) {
+//     console.log("Spedizione Gratuita")
+// } else {
+//     const costoFinale = carrelloSpesa + 5
+//     console.log(`Il costo di spedizione è di 5€. Totale a pagare: ${carrelloSpesa}`)
+// }
 
+// ==========================================
 
+// const tempSterna = Number(prompt("Esercizio 14: Inserisci la temperatura esterna (°C):"))
+
+// if (tempSterna < 15) {
+//     const piove = prompt("Piove (si/no)?").toLowerCase() === "si";
+//     if (piove) {
+//         console.log("Metti l'impermeabile")
+//     } else {
+//         console.log("Metti la giacca")
+//     }
+// } else {
+//     console.log("Vai leggero")
+// }
+
+// ==========================================
 
 
 
