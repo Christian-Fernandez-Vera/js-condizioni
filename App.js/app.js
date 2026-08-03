@@ -12,7 +12,7 @@
  *10. Chiedi quante ore si resta nel parcheggio. Se sono <= 2 ore costa 5€, se sono <= 5 ore costa 10€, altrimenti costa 15€.
  *11. Chiedi l'età e il genere ("M" o "F"). Se è uomo e ha >= 67 anni o donna e ha >= 62 anni, stampa "Puoi andare in pensione", altrimenti "Devi ancora lavorare".
  *12. Simula il lancio di una moneta. Se il numero è minore di 0.5 stampa "Testa", altrimenti stampa "Croce".
- *
+ *13. Chiedi il totale del carrello e-commerce. Se la spesa è superiore a 50€, stampa "Spedizione gratuita", altrimenti calcola e stampa un costo di spedizione fisso di 5€.
  *
  *
  *
@@ -168,7 +168,14 @@
 
 // ==========================================
 
+const carrelloSpesa = Number(prompt("Esercizio 13: Qual'è l'ammonto totale del tuo carrello della spesa?"))
 
+if (carrelloSpesa >= 50) {
+    console.log("Spedizione Gratuita")
+} else {
+    const costoFinale = carrelloSpesa + 5
+    console.log(`Il costo di spedizione è di 5€. Totale a pagare: ${carrelloSpesa}`)
+}
 
 
 
