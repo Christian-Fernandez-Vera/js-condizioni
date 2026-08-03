@@ -10,7 +10,7 @@
  *8. Chiedi username e password. Se sono rispettivamente "admin" e "1234", stampa "Login effettuato", altrimenti stampa "Credenziali errate".
  *9. Chiedi un voto da 1 a 10. Stampa "Insufficiente" se < 6, "Sufficiente" se tra 6 e 7, "Buono" se tra 8 e 9, "Ottimo" se 10.
  *10. Chiedi quante ore si resta nel parcheggio. Se sono <= 2 ore costa 5€, se sono <= 5 ore costa 10€, altrimenti costa 15€.
- *
+ *11. Chiedi l'età e il genere ("M" o "F"). Se è uomo e ha >= 67 anni o donna e ha >= 62 anni, stampa "Puoi andare in pensione", altrimenti "Devi ancora lavorare".
  *
  *
  *
@@ -145,9 +145,16 @@
 //     console.log("Il costo del parcheggio è 15")   
 // }
 
+// ==========================================
 
+// const etaUtente = Number(prompt("Esercizio 11: Inserisci la tua età"))
+// const genereUtente = prompt("Esercizio 11: Inserisci il tuo genere (M o F)").toUpperCase();
 
+// if ((genereUtente === "M" && etaUtente >=67 )|| (genereUtente === "F" && etaUtente >= 62)) {
+//     console.log("Puoi andare in pensione")
+// } else {
+//     console.log("Devi ancora lavorare")
+// }
 
-
-
+// ==========================================
 
